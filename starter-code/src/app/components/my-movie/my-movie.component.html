@@ -1,0 +1,12 @@
+<div class="card">
+  <img [src]="movie.poster" alt="">
+  <p class="text-center">{{movie.title}} ({{movie.year}})</p>
+  <p><strong>Genres:</strong> {{movie.genres}}</p>
+  <p><strong>Director:</strong> {{movie.director}}</p>
+  <p><strong>Actors:</strong> {{movie.actors}}</p>
+  <p><strong>Synopsis:</strong> {{movie.synopsis}}</p>
+  <p><strong>Schedule:</strong> {{movie.hours}}</p>
+  <p><strong>Room:</strong> {{movie.room}}</p>
+
+  <a class="btn" [routerLink]="['/home']">Go back</a>
+</div>

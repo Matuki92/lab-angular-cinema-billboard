@@ -1,0 +1,52 @@
+/* ---- layout ---- */
+
+#site-header {
+  padding: 30px 0;
+  color: white;
+  background: rgb(206, 24, 0);
+}
+
+#site-footer {
+  color: white;
+  padding: 40px 0;
+  background: rgb(71, 71, 71);
+}
+
+#site-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-top: 40px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  margin-right:10px;
+}
+
+nav a:hover {
+  color:yellow;
+}
+
+/* ---- components ---- */
+

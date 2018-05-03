@@ -1,4 +1,4 @@
-[
+const movies = [
   {
     id: 1,
     title: "The Shawshank Redemption",
@@ -16,6 +16,11 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
+    ],
+    room: 1 ,
+    hours: [
+      'Wednesday 20:00',
+      'Friday 21:00'
     ]
   }, {
     id: 2,
@@ -34,6 +39,11 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
+    ],
+    room: 1,
+    hours: [
+      'Monday 14:00',
+      'Friday 18:00'
     ]
   }, {
     id: 3,
@@ -52,6 +62,12 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
+    ],
+    room: 2,
+    hours: [
+      'Thursday 14:00',
+      'Thursday 18:00',
+      'Friday 12:00'
     ]
   }, {
     id: 4,
@@ -70,10 +86,14 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
+    ],
+    room: 1,
+    hours: [
+      'Monday 14:00',
+      'Wednesday 14:00'
     ]
   }, {
-  {
-    id: 5,
+    id: 3,
     title: "Schindler's List",
     poster: "https://i.imgur.com/IWZJOmu.jpg",
     synopsis: "The relocation of Polish Jews from surrounding areas to Krakow begins in late 1939, shortly after the outbreak of World War II, when the German Army defeats...",
@@ -89,6 +109,13 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
+    ],
+    room: 4,
+    hours: [
+      'Tuesday 14:00',
+      'Tuesday 18:00'
     ]
   }
-]
+];
+
+export { movies }
